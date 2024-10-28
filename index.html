@@ -3,62 +3,112 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>FlexGen</title>
+    <title>FlexGen Interface</title>
     <link rel="stylesheet" href="./style.css">
 </head>
 <body>
     <!-- Navbar -->
     <header class="navbar">
-        <div class="logo">Flex<span class="highlight">Gen</span></div>
-        <nav>
-            <a href="#about">About</a>
-            <a href="#schedule">Schedule</a>
-            <a href="#store">Store</a>
-            <a href="#contact">Contact</a>
-        </nav>
-        <button class="join-btn">Join Our Team</button>
+        <div class="logo-nav">
+            
+                <img src="./images/flexgen_logo.png" alt="" class="flexgen_logo">
+                <img src="./images/FlexGen.png" alt="" class="flexgen_text">
+            
+            <nav class="nav-links">
+                <a href="#about">About</a>
+                <a href="#schedule">Schedule</a>
+                <a href="#store">Store</a>
+                <a href="#contact">Contact</a>
+            </nav>
+        </div>
+        
+        <div class="button-arrow">
+            <button class="join-btn">Join Our Team</button>
+            <img src="./images/arrow.png" alt="">
+        </div>
+        
     </header>
 
-    <!-- Main Grid Content -->
-    <main class="main-grid">
-        <!-- Section 1: Hero Section -->
-        <section class="hero">
-            <h2>Time for Fitness - 23</h2>
-            <h1>Own Your Strength, Own You</h1>
-            <button class="cta-btn">Start Your Journey</button>
-            <p class="subtext">Luxury Fitness Experience</p>
+    <!-- Main Content -->
+    <main class="main-content">
+        <!-- hero starts here -->
+        <section class="box hero">
+            <div class="left-col">
+                <div class="header-left">
+                    <img src="./images/white_triangle.png" alt="">
+                    <img src="./images/yellow_triangle.png" alt="">
+                    <h4>TIME FOR FITNESS - 23</h4>
+                </div>
+                
+                <h1>Own Your</h1>
+                <h1>Strength,</h1>
+                <h1>Own You</h1>
+
+                <div class="bottom-left">
+                    <button class="cta-btn">Start Your Journey</button>
+                    <div class="text-strip">
+                        <img src="./images/white_strip.png" alt="">
+                        <p class="subtext">Luxury Fitness Experience</p>
+                    </div>
+                    
+                </div>
+
+            </div>
+            <div class="right-col">
+                <img src="./images/star_image.png" alt="" class="star_img">
+                <img src="./images/man.png" alt="Train on Your Own Time" class="man_img">
+                <!-- <p class="overlay-text"></p> -->
+                <span class="overlay-text1">Train on Your</span>
+                <!-- <br> -->
+                <span class="overlay-text2">Own Time</span>
+            </div>
         </section>
 
-        <!-- Section 2: Image Section -->
-        <section class="image-section">
-            <img src="./images/man.png" alt="Hero Image">
-            <p class="overlay-text">Train on Your Own Time</p>
-        </section>
+        <!-- hero sections ends here -->
 
-        <!-- Section 3: Contact Section -->
-        <section class="contact">
-            <img src="./images/woman.png" alt="Contact Image">
+        <!-- rating and contact sections starts here -->
+        <section class="contact-rating-section">
+        <div class="contact">
+                <img src="./images/woman.png" alt="Contact Image" class="contact-img">
             <div class="contact-info">
-                <p class="support">24/7 Support</p>
-                <address>1234 Fitness Ln<br>Brooklyn NY</address>
+                <div class="contact-details">
+                    <p class="support-text">24/7 SUPPORT</p>
+
+                    <div class="address">
+                        <p>1234 Fitness Ln, Brooklyn NY</p>
+                        <img src="./images/location.png" alt="" class="location_img">
+                    </div>
+                </div>
+                
                 <h3>Contact Us & Rise Stronger</h3>
             </div>
-        </section>
+        </div>
 
-        <!-- Section 4: Rating Section -->
-        <section class="rating">
+        <div class="rating">
             <div class="rating-score">
                 <h2>4.98</h2>
-                <p>Based on 619 reviews</p>
+                <div class="reviews">
+                    <img src="./images/stars.png" alt="" class="stars">
+                    <p class="review-text">Based on 619 reviews</p>
+                </div>
+                <img src="./images/flexgen_logo.png" alt="" class="flex_logo">
             </div>
             <div class="rating-tags">
-                <span>Boxing Ring</span>
-                <span>Basketball Courts</span>
-                <span>Juice Bar</span>
-                <span>Personal Trainers</span>
-                <span>Lookers</span>
-                <span>Free Parking</span>
+                <div class="tags">
+                    <span>Boxing Ring</span>
+                    <span>Basketball Courts</span>
+                    <span></span>
+                    <span>Juice Bar</span>
+                </div>
+                <div class="tags">
+                    <span>Personal Trainers</span>
+                    <span></span>
+                    <span>Lookers</span>
+                    <span>Free Parking</span>
+                </div>
             </div>
+        </div>
+            
         </section>
     </main>
 </body>
