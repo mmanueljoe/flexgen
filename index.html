@@ -1,132 +1,65 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Flexgen</title>
-    <link rel="stylesheet" href="./style.css" />
-  </head>
-  <body>
-    <!-- navbar section starts here  -->
-    <section id="navbar">
-      <div class="navbar">
-        <div class="logo">
-          <img src="./images/flexgen_logo.png" alt="" />
-          <h1>Flex<span>Gen</span></h1>
-        </div>
-        <ul>
-          <li><a href="#">ABOUT</a></li>
-          <li><a href="#">SCHEDULE</a></li>
-          <li><a href="#">STORE</a></li>
-          <li><a href="#">CONTACT</a></li>
-        </ul>
-        <div class="cta">
-          <p>JOIN OUR TEAM</p>
-          <div class="image">
-            <img src="./images/arrow.png" alt="" />
-          </div>
-        </div>
-      </div>
-    </section>
-    <!-- navbar section ends here  -->
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FlexGen</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <!-- Navbar -->
+    <header class="navbar">
+        <div class="logo">Flex<span class="highlight">Gen</span></div>
+        <nav>
+            <a href="#about">About</a>
+            <a href="#schedule">Schedule</a>
+            <a href="#store">Store</a>
+            <a href="#contact">Contact</a>
+        </nav>
+        <button class="join-btn">Join Our Team</button>
+    </header>
 
-    <!-- hero section starts here  -->
-    <div class="hero">
-      <div class="first">
-        <div class="icon-box">
-          <div class="icon">
-            <p class="white"></p>
-            <p class="yellow"></p>
-          </div>
-          <p class="time">TIME FOR FITNESS - 23</p>
-        </div>
-        <h1 class="hero-text">OWN YOUR STRENGTH, OWN YOU</h1>
+    <!-- Main Grid Content -->
+    <main class="main-grid">
+        <!-- Section 1: Hero Section -->
+        <section class="hero">
+            <h2>Time for Fitness - 23</h2>
+            <h1>Own Your Strength, Own You</h1>
+            <button class="cta-btn">Start Your Journey</button>
+            <p class="subtext">Luxury Fitness Experience</p>
+        </section>
 
-        <div class="hero-div">
-          <p class="hero-btn">START YOUR JOURNEY</p>
-          <div class="hero-watermark">
-            <img src="./images/star_image.png" alt="" />
-            <p>luxury fitness experience</p>
-          </div>
-        </div>
-      </div>
-      <div class="second">
-        <img src="./images/man.png" alt="" class="main-img" />
-        <img src="./images/star_image.png" alt="" class="second-img" />
-        <h2>TRAIN ON YOUR OWN TIME</h2>
-      </div>
-    </div>
-    <!-- hero section end here  -->
+        <!-- Section 2: Image Section -->
+        <section class="image-section">
+            <img src="./images/man.png" alt="Hero Image">
+            <p class="overlay-text">Train on Your Own Time</p>
+        </section>
 
-    <!-- info section begins here  -->
+        <!-- Section 3: Contact Section -->
+        <section class="contact">
+            <img src="./images/woman.png" alt="Contact Image">
+            <div class="contact-info">
+                <p class="support">24/7 Support</p>
+                <address>1234 Fitness Ln<br>Brooklyn NY</address>
+                <h3>Contact Us & Rise Stronger</h3>
+            </div>
+        </section>
 
-    <div class="bottom">
-      <div class="info1">
-        <div class="info1-img">
-          <img src="./images/woman.png" alt="" />
-          <p></p>
-        </div>
-
-        <div class="info1-top">
-          <h3>24/7 support</h3>
-
-          <div class="info-top1">
-            <p>1234 fitness ln brooklyn ny</p>
-            <img src="./images/location.png" alt="" />
-          </div>
-        </div>
-      </div>
-
-      <div class="info2">
-        <div class="info2-top">
-          <h1>4.98</h1>
-          <div class="info2-middle">
-            <img src="./images/stars.png" alt="" />
-            <p>Based on 619 reviews</p>
-          </div>
-
-          <div class="infoimg">
-            <img src="./images/flexgen_logo.png" alt="" />
-          </div>
-        </div>
-
-        <div class="info2-bottom">
-          <div class="bottom1">
-            <h2>boxing ring</h2>
-          </div>
-
-          <div class="bottom1">
-            <h2>Basket ball court</h2>
-          </div>
-
-          <div class="bottom1">
-            <img src="./images/gym_tool.png" alt="" />
-          </div>
-
-          <div class="bottom1">
-            <h2>juice bar</h2>
-          </div>
-        </div>
-
-        <div class="info2-bottom">
-          <div class="bottom1">
-            <h2>personal trainig</h2>
-          </div>
-
-          <div class="bottom1">
-            <img src="./images/clock.png" alt="" />
-          </div>
-
-          <div class="bottom1">
-            <h2>lookers</h2>
-          </div>
-
-          <div class="bottom1">
-            <h2>free parking</h2>
-          </div>
-        </div>
-      </div>
-    </div>
-    <!-- info section ends here  -->
-  </body>
+        <!-- Section 4: Rating Section -->
+        <section class="rating">
+            <div class="rating-score">
+                <h2>4.98</h2>
+                <p>Based on 619 reviews</p>
+            </div>
+            <div class="rating-tags">
+                <span>Boxing Ring</span>
+                <span>Basketball Courts</span>
+                <span>Juice Bar</span>
+                <span>Personal Trainers</span>
+                <span>Lookers</span>
+                <span>Free Parking</span>
+            </div>
+        </section>
+    </main>
+</body>
 </html>
